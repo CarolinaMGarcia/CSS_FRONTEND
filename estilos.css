@@ -1,0 +1,826 @@
+#contenedor{
+    width: 960px;
+    margin: auto;
+    height: auto;
+    
+    background-color: #FFFFFF;
+    color: #2D4ECC;
+}
+
+footer
+{
+    display: flex;
+    width: 960px;
+    margin: auto;
+    height: auto;
+    
+    background-color: #EEF3FF;
+    color: #2D4ECC;
+
+}
+
+.tituloInfo
+{
+    font-family: tahoma;
+    font-size: 20px;
+    color: #2D4ECC;
+}
+
+.sub_info1
+{
+    margin-top: 88px;
+  
+
+}
+
+
+.sub_info2
+{
+    display: flex;
+    margin-left: -16px;
+    width: 181px;
+    height: 77px;
+    margin-top: 64px;
+    font-size: 10px;
+
+}
+
+#politica
+{
+    margin-left: 7px;
+}
+
+#info1
+{
+    font-family: tahoma;
+    font-size: 12px;
+    width: 43%;
+    height: 200px;
+    color: black;
+
+    margin-left: 97px;
+}
+
+#info3
+{
+    margin-left: 11px;
+}
+
+#info4
+{
+    margin-left: 8px;
+}
+body{
+    background-color: #138BE3;
+}
+h1
+{
+    float: left;
+    margin-left: 18px;
+  
+   width: 400px;
+   height: auto;
+   text-align: center;
+   margin-top: 5px;
+}
+
+
+ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E6F4FC;
+    
+}
+
+li{
+    float: left;
+    font-size: 18px;
+    font-family: tahoma;
+    color: black;
+    
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.azul{
+    width: 100px;
+    background-color: #2D4ECC;
+    border-radius: 5px;
+    box-shadow: 1px 1px #E6F4FC
+}
+
+#s1{
+    float: right;
+    
+    width: 50%;
+    height: 400px;
+}
+
+
+#s2N{
+    float: right;
+    
+    width: 50%;
+    height: 400px;
+}
+
+.s2
+{
+    
+    
+    width: 50%;
+    height: 250px;
+}
+
+#proteccion
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 9%;
+}
+
+#proteccion2{
+    float: left;
+    display: flex;
+   width: 161px;
+   height: 100px;
+   
+}
+
+#favoritos2{
+    display: flex;
+   width: 196px;
+   height: 100px;
+   
+}
+
+#favoritos{
+    width: 30px;
+    height: 30px;
+    margin-top: 9%;
+}
+
+
+#iconos{
+    
+    width: 361px;
+    height: 100px;
+    margin-left: 111px;
+    
+}
+
+.txtIconos{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-family: tahoma;
+    font-size: 12px;
+ }
+
+ .txtP1{
+    color: #2D4ECC;
+    font-size: 35px;
+    
+    font-family: tahoma;
+    
+ }
+
+ .txtp{
+    font-family: tahoma;
+    font-size: 12px;
+ }
+
+ #s1_1{
+     margin-left: 99px;
+     
+ }
+
+ #s1_2
+ {
+    display: flex;
+    margin-left: 88px;
+    
+ }
+
+ #medidas
+ {
+    display: flex;
+    margin-left: 88px;
+    
+ }
+ .beneficios
+ {
+     
+     width: 500px;
+     height: 200px;
+     margin: 5px;
+     box-shadow: 2px 2px 2px 2px #E3ECFA;
+    border: 1px solid white;
+     
+ }
+
+
+
+   
+
+
+#inyeccion{
+    width: 482px;
+    height: 480px;
+    
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    position:auto;
+
+}
+
+#medidas{
+    width: 482px;
+    height: 480px;
+}
+.p1{
+    color: #2D4ECC;
+    font-size: 35px;
+    text-align: center;
+    font-family: tahoma;
+}
+
+#info
+{
+    width: 350px;
+    text-align: justify;
+    margin-left: 121px;
+    margin-top: -25px;
+    font-family: tahoma;
+    
+}
+
+.txtAgenda
+{
+    display: flex;
+    margin-top: 5px;
+    font-family: tahoma;
+    font-size: 20px;
+    padding: 11px;
+    
+    
+}
+#agenda{
+
+    width: 361px;
+    height: 100px;
+    
+    margin-left: 111px;
+    
+}
+
+#tiempo{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 1%;
+
+}
+
+.imgAgenda
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+}
+
+#contenedorAgenda
+{
+    display: flex;
+    border-radius: 5px;
+    
+    font-family: tahoma;
+
+    width: 600px;
+
+    margin-left: 111px;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 2px solid white;
+    margin-top: -57px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    z-index: 1px;
+    position: relative;
+  
+}
+    
+    
+    
+
+
+
+
+#medidas_s
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 92px;
+    margin-top: 15px;
+    width: 862px;
+    height: 600px;
+
+    box-shadow: 2px 2px 2px #E3ECFA;
+
+}
+
+#medidas_s2
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 92px;
+    margin-top: 15px;
+    width: 862px;
+    height: 650px;
+
+    box-shadow: 2px 2px 2px #E3ECFA;
+
+}
+
+p{
+    font-family: tahoma;
+    color: black;
+}
+
+.escudo
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.selecciones1
+{
+    margin-left: 45px;
+    display: flex;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px #E3ECFA;
+    width: 300px;
+}
+
+#selecciones2
+{
+    margin-left: 45px;
+    
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px #E3ECFA;
+    width: 300px;
+    margin-top: 25px;
+}
+
+#selecciones3
+{
+    margin-left: 45px;
+    
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px #E3ECFA;
+    width: 300px;
+    margin-top: 25px;
+}
+
+#selecciones4
+{
+    margin-left: 45px;
+    
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px #E3ECFA;
+    width: 300px;
+    margin-top: 25px;
+}
+
+#selecciones5
+{
+    margin-left: 45px;
+    
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px #E3ECFA;
+    width: 300px;
+    margin-top: 25px;
+}
+
+#txtEstres
+{
+  
+    margin-right: 50px;
+    color: black;
+}
+
+
+
+.prohibido
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.comida
+{
+    margin-top: -22px;
+    margin-left: 43px;
+}
+#prohibido_estres
+{
+    margin-top: -24px;
+    margin-left: 41px;
+}
+
+.d1{
+
+
+   
+    width: 50%;
+    height: 500px;
+    
+    
+}
+
+#doctora
+{
+    width: 433px;
+    height: 600px;
+}
+
+#doctor
+{
+    width: 433px;
+    height: 560px;
+    
+}
+
+.txtRecomendaciones
+{
+    margin-left: 45px;
+}
+
+.d2{
+    
+   
+    width: 50%;
+    height: 500px;
+    
+}
+
+#detalles{
+    margin-top: 37px;
+    margin-left: -66px;
+}
+
+#detalles2{
+    margin-top: 37px;
+    margin-left: -47px;
+}
+
+
+#detalles3{
+    margin-top: 37px;
+    margin-left: -113px;
+}
+
+#btnEnviar{
+  margin-left: 44px;
+}
+
+
+.txtTitulos
+{
+    padding: 4px;
+}
+
+#btnEnviar
+{
+   
+    box-shadow: 1px 2px 3px 1px #CDD5F2;
+    border-radius: 1px ;
+    background-color: #2D4ECC;
+    color: white;
+    width: 128px;
+    height: 47px;
+    margin-top: 15px;
+}
+
+#llamar{
+    
+
+
+    width: 427px;
+    height: 600px;
+    font-size: 18px;
+}
+
+.con{
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 150px;
+    height: 34px;
+    background-color: #F1F5FF;
+    color: #2D4ECC;
+    border: 1px solid white;
+}
+
+.con2{
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 150px;
+    height: 34px;
+    background-color: #2D4ECC;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 1px 2px 3px 1px #CDD5F2;
+}
+
+.icono{
+    width: 60px;
+    height: 60px;
+    margin-left: 37px;
+    margin-top: 33px;
+}
+
+.titulo{
+    margin-left: 105px;
+    margin-top: -56px;
+}
+
+.numero{
+    margin-left: 103px;
+    margin-top: -11px;
+    font-size: 12px;
+}
+
+.call{
+
+    box-shadow: 1px 2px 3px 1px #CDD5F2;
+    border-radius: 1px ;
+
+    width: 200px;
+    height: 200px;
+}
+
+
+.chat{
+    margin-left: 15px;
+    box-shadow: 1px 2px 3px 1px #CDD5F2;
+    border-radius: 1px ;
+
+    width: 200px;
+    height: 200px;
+}
+
+.video_call{
+    margin-top: 184px;
+    display: flex;
+    box-shadow: 1px 2px 3px 1px #CDD5F2;
+    border-radius: 1px ;
+
+    width: 200px;
+    height: 200px;
+}
+
+#contacto
+{
+    display: flex;
+    width: 427px;
+}
+
+#contacto2
+{
+    margin-top: 15px;
+    display: flex;
+    width: 427px;
+}
+
+
+
+.logoVacunas{
+    margin-right: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#tipo_vacuna
+{
+    display: flex;
+    margin-left: 110px;
+    width: 817px;
+    height: 100px;
+    margin-top: 5px;
+
+}
+
+.beneficios2
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 19px;
+    margin-top: 11px;
+}
+
+.txtbeneficios
+{
+    font-family: tahoma;
+    font-size: 19px;
+    color: #138BE3;
+    margin-left: 19px;
+}
+
+.txtbeneficios_sub{
+    font-family: tahoma;
+    font-size: 15px;
+    color:black;
+    margin-left: 19px;
+
+}
+
+.division1
+{
+    
+    width: 50%;
+    height: 300px;
+    border: 1px solid blue;
+
+}
+
+.division2
+{
+    float: right;
+    width: 50%;
+    height: 300px;
+    border: 1px solid palevioletred;
+
+}
+/*
+estilos de covid
+*/
+
+#section_covid
+{
+    margin-top: 15px;
+    width: 958px;
+    height: 540px;
+    
+}
+
+#titulo_covid{
+    text-align: center;
+    font-size: 25px;
+    font-family: tahoma;
+    color: #2D4ECC;
+}
+
+#subtitulo_covid
+{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+#imgCovid
+{
+    border: 1px solid plum;
+    margin-left: 330px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px wheat;
+}
+
+#fuente{
+    margin-top: 125px;
+}
+
+#fuente{
+    margin-top: 125px;
+}
+
+#fuente2{
+    margin-top: 38px;
+}
+
+/*
+estilos sintomas
+*/
+#imgSintomas
+{
+    margin-left: 235px;
+    height: 500px;
+}
+
+#section_sintomas
+{
+    margin-top: 15px;
+    width: 958px;
+    height: 654px;
+    
+}
+
+/*
+estilos variantes
+*/
+
+#section_variantes
+{
+    margin-top: 135px;
+    width: 958px;
+    height: 852px;
+    
+}
+#titulo_variante{
+    text-align: center;
+    font-size: 25px;
+    font-family: tahoma;
+    color: #2D4ECC;
+}
+
+#imgVariante
+{
+    width: 707px;
+    height: 447px;
+    margin-left: 142px;
+    border: 1px solid salmon;
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 22px;
+}
+
+/*
+estilos prevencion
+*/
+
+#section_prevencion
+{
+    margin-top: 135px;
+    width: 958px;
+    height: 510px;
+    
+}
+
+
+#imgPrevencion
+{
+    width: 707px;
+    height: 447px;
+    margin-left: 142px;
+    margin-top: -99px;
+    border: 1px solid salmon;
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 22px;
+}
+
+#fuenteP{
+    margin-top: 81px;
+    margin-left: 139px;
+}
+
+/*
+estilos prueba
+*/
+
+#section_pruebas
+{
+    margin-top: 135px;
+    width: 958px;
+    height: 510px;
+    
+}
+
+#fuenteP{
+    margin-top: 81px;
+    margin-left: 139px;
+}
+
+#imgPruebas
+{
+    width: 707px;
+    height: 447px;
+    margin-left: 142px;
+    margin-top: -99px;
+    border: 1px solid salmon;
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* #secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
